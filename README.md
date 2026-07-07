@@ -1,1 +1,1 @@
-# galerias-de-artistas-locais
+# arte-de-curitiba
