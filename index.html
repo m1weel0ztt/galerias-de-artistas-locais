@@ -1,89 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Arte de Curitiba</title>
 
   <style>
     body {
-      margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: Arial;
       background-color: #e8f5e9;
-      color: #2e4d34;
+      margin: 0;
     }
 
     header {
-      background-color: #66bb6a;
+      background-color: #2e7d32;
       color: white;
       text-align: center;
-      padding: 30px;
-    }
-
-    nav {
-      background-color: #a5d6a7;
-      text-align: center;
-      padding: 12px;
-    }
-
-    nav a {
-      color: #2e4d34;
-      margin: 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: #1b5e20;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
     }
 
     main {
-      max-width: 900px;
-      margin: 30px auto;
-      padding: 20px;
       background-color: white;
-      border-radius: 12px;
+      color: #2e7d32;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
     }
 
     h2 {
-      border-left: 5px solid #66bb6a;
-      padding-left: 10px;
       margin-top: 30px;
-    }
-
-    .destaque {
-      background-color: #f1f8e9;
-      padding: 15px;
-      border-radius: 10px;
-      margin-top: 15px;
-    }
-
-    .artista {
-      margin-top: 30px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid #c8e6c9;
     }
 
     img {
-      width: 400px;
-      height: 250px;
-      object-fit: cover;
-      border-radius: 12px;
+      width: 300px;
       margin-top: 10px;
     }
 
     iframe {
-      width: 100%;
-      max-width: 400px;
-      height: 220px;
+      display: block;
       margin-top: 10px;
-      border-radius: 12px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 15px;
-      background-color: #a5d6a7;
-      margin-top: 30px;
     }
   </style>
 </head>
@@ -91,89 +49,42 @@
 <body>
 
   <header>
-    <h1>🌿 Arte de Curitiba</h1>
-    <p>Valorizando talentos locais da cidade</p>
+    <h1>Arte de Curitiba</h1>
+    <p>Artistas da cidade</p>
   </header>
-
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#artistas">Artistas</a>
-    <a href="#contato">Contato</a>
-  </nav>
 
   <main>
 
-    <!-- HOME -->
-    <h2 id="home">🏠 Início</h2>
+    <h2>Início</h2>
+    <p>Esse site mostra alguns artistas de Curitiba. A cidade tem bastante cultura e artistas em várias áreas como música e arte visual.</p>
 
-    <p>Bem-vindo ao <strong>Arte de Curitiba</strong>! Este site foi criado para divulgar artistas reais da cidade, valorizando a cultura local e dando visibilidade a talentos da música, arte urbana e produção audiovisual.</p>
+    <h2>Artistas</h2>
 
-    <p>Curitiba possui uma cena artística muito rica, com artistas que se destacam nacionalmente e também na cena independente.</p>
+    <h3>Jovem Dionísio</h3>
+    <p>Banda conhecida pela música "Acorda Pedrinho".</p>
+    <img src="jovem_dionisio.png">
+    <iframe width="300" height="170" src="https://www.youtube.com/embed/d-tx9D4a8dc"></iframe>
 
-    <div class="destaque">
-      <h3>🌟 Artista em destaque</h3>
-      <p><strong>Jovem Dionísio</strong> é uma banda de indie pop e bedroom pop brasileira formada em 2019 na cidade de Curitiba, Paraná. É composta por Bernardo Pasquali no vocal, Rafael Dunajski Mendes 'Fufa' na guitarra, Gustavo Karam no baixo, Bernardo Hey 'Ber Hey' no teclado e Gabriel Dunajski Mendes 'Mendão' na bateria e composições.</p>
-    </div>
+    <h3>Mulamba</h3>
+    <p>Banda com músicas sobre temas sociais.</p>
+    <img src="mulamba.png">
+    <iframe width="300" height="170" src="https://www.youtube.com/embed/353TNXIcUrA"></iframe>
 
-    <!-- ARTISTAS -->
-    <h2 id="artistas">🎨 Artistas</h2>
+    <h3>Butcher Billy</h3>
+    <p>Artista que faz ilustrações digitais.</p>
+    <img src="butcher_billy.png">
+    <iframe width="300" height="170" src="https://www.youtube.com/embed/r8-2Fw4IFqY"></iframe>
 
-    <!-- JOVEM DIONISIO -->
-    <div class="artista">
-      <h3>🎧 Jovem Dionísio</h3>
-      <p>Banda indie/pop formada em Curitiba, com grande sucesso nacional.</p>
-      <p><strong>Instagram:</strong> @jovemdionisio</p>
+    <h3>DJ Ricetti</h3>
+    <p>DJ da cena eletrônica.</p>
+    <img src="dj_ricetti.png">
+    <iframe width="300" height="170" src="https://www.youtube.com/embed/slPb8C4EFL8"></iframe>
 
-      <img src="imagens/jovem_dionisio.png" alt="Imagem da Banda Dionísio">
-
-      <iframe src="https://www.youtube.com/embed/d-tx9D4a8dc?si=vYCODPDopwfEuzZw" allowfullscreen></iframe> 
-    </div>
-
-    <!-- MULAMBA -->
-    <div class="artista">
-      <h3>🎤 Mulamba</h3>
-      <p>Banda formada em Curitiba com músicas sobre empoderamento feminino e questões sociais.</p>
-      <p><strong>Instagram:</strong> @mulambaoficial</p>
-
-      <img src="imagens/mulamba.png" alt="Imagem da Banda Mulamba">
-
-      <iframe src="https://www.youtube.com/embed/353TNXIcUrA?si=9vcrU8GlSRxZ6458" allowfullscreen></iframe>
-    </div>
-
-    <!-- BUTCHER BILLY -->
-    <div class="artista">
-      <h3>🎨 Butcher Billy</h3>
-      <p>Artista gráfico de Curitiba conhecido internacionalmente por suas ilustrações pop art.</p>
-      <p><strong>Instagram:</strong> @butcherbilly</p>
-
-      <img src="imagens/butcher_billy.png" alt="Imagem do Butcher Billy">
-
-      <iframe src="https://www.youtube.com/embed/r8-2Fw4IFqY?si=ZgFTuXz7jyMcGytC" allowfullscreen></iframe>
-    </div>
-
-    <!-- DJ RICETTI -->
-    <div class="artista">
-      <h3>🎧 DJ Ricetti</h3>
-      <p>DJ e produtor musical atuante na cena eletrônica de Curitiba.</p>
-      <p><strong>Instagram:</strong> @djricetti</p>
-
-      <img src="imagens/dj_ricetti.png" alt="Imagem do DJ Ricetti">
-
-      <iframe src="https://www.youtube.com/embed/slPb8C4EFL8?si=kKHbJAgNwuFEYU" allowfullscreen></iframe>
-    </div>
-
-    <!-- CONTATO -->
-    <h2 id="contato">📞 Contato</h2>
+    <h2>Contato</h2>
     <p>Email: contato@artecuritiba.com</p>
-    <p>Instagram: @artecuritiba</p>
-
-    <p><em>Imagens e vídeos utilizados apenas para fins educativos.</em></p>
 
   </main>
 
-  <footer>
-    <p>© 2026 - Projeto escolar</p>
-  </footer>
-
 </body>
+
 </html>
